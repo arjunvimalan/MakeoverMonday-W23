@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sleepless America</title>
+  <link rel="stylesheet" href="./sleepless_america.css">
+</head>
+
+<body>
+  
+  <div class='filters'>
+    <text>Age Group</text>
+    <select class="option" id="age_group"></select>
+    <text>Sex</text>
+    <select class="option" id="sex"></select>
+    <text>Day Type</text>
+    <select class="option" id="day_type"></select>
+    <input type="checkbox" id="show_error"> Show Standard Error
+  </div>
+
+  <div class='wrapper'><svg id='line' width='700' height='500' stroke-width="3"></svg></div>
+  <div class='wrapper'><svg id='bar' width='700' height='500' stroke-width="3"></svg></div>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="./sleepless_america.js"></script>
+
+</body>
+
+</html>
